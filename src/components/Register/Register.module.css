@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+}
+
+.container img {
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+
+    background: #CFD4ED;
+}
+
+.title h1 {
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 32px 0px;
+}
+
+.inputAccount label {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #222222;
+}
+
+.inputAccount {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 370px;
+    height: 38.25px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 9px;
+    padding-left: 10px;
+}
+
+.inputContainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 55px;
+}
+
+.inputContainer button {
+    width: 370px;
+    height: 36px;
+
+    background: #0D28A6;
+    border-radius: 2px;
+
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.loginLink a {
+    text-decoration: none;
+}
+
+.loginLink {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.registerGoogle p {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.registerGoogle:hover {
+    cursor: pointer;
+}
