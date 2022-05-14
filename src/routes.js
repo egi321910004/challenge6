@@ -1,23 +1,21 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Landing from "./components/Landing/Landing";
-import Login from "./components/Login/Login";
-import Register from "./components/Register/Register";
+import Login from "./features/Login/Login";
+import Home from "./features/Home/Home";
+import Dashboard from "./features/Dashboard/Dashboard";
+import Register from "./features/Register/Register"
 
 const RouteApp = () => {
-    return (
-        <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Register />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/login/landing" element={<Landing />} />
-                    <Route path="/login/dashboard" element={<Dashboard />} />
-                    <Route path="*" element={<h1>404 Not Found</h1>} />
-                </Routes>
-            </BrowserRouter>
-        </>
-    )
-}
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="*" element={<h1>404</h1>} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
 export default RouteApp;
