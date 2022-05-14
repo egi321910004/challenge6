@@ -39,7 +39,7 @@
 
 input {
     box-sizing: border-box;
-    width: 370px;
+    width: 350px;
     height: 38.25px;
 
     background: #FFFFFF;
@@ -56,11 +56,11 @@ input {
 }
 
 .inputContainer button {
-    width: 370px;
+    width: 350px;
     height: 36px;
 
-    background: #0D28A6;
-    border-radius: 2px;
+    background: #3c4d99;
+    border-radius: 4px;
 
     font-family: 'Helvetica';
     font-weight: 700;
@@ -80,10 +80,10 @@ input {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    margin: 5px 0px;
+    margin: 7px 0px;
 }
 
 .loginLink:hover {
-    color: blue;
+    color: rgb(0, 195, 255);
     cursor: pointer;
 }
